@@ -22,6 +22,11 @@ Im Modul 335 lag der Fokus allgemein auf der Entwicklung einer Mobile-App. In di
 - [ ] Als Benutzer möchte ich Lebensmittel mit ihrem Proteingehalt eintragen können, damit meine tägliche Proteinaufnahme erfasst wird.
 - [ ] Als Benutzer möchte ich meinen aktuellen Proteinfortschritt sehen können, damit ich weiss, wie viel Protein mir bis zu meinem Tagesziel noch fehlt.
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich mein Projekt für die Lernperiode gestartet. Ich habe mich für einen Proteintracker mit .NET MAUI entschieden. Zuerst musste ich .NET MAUI installieren und Visual Studio richtig einrichten. Die Installation und Einrichtung haben deutlich länger gedauert als erwartet. Danach konnte ich das Projekt erstellen und mit der ersten Oberfläche beginnen. Da durch die Installation viel Zeit verloren ging, konnte ich meine drei geplanten Arbeitspakete heute noch nicht fertigstellen. Deshalb habe ich diese auf die nächste Lernperiode verschoben.
 
-☝️ Vergessen Sie nicht, einen ersten Code und Skizze auf github hochzuladen!
+
+## 21.8
+- [ ] Als Benutzer möchte ich ein persönliches Protein-Tagesziel festlegen können, damit ich weiss, wie viel Protein ich täglich erreichen möchte.
+- [ ] Als Benutzer möchte ich Lebensmittel mit ihrem Proteingehalt eintragen können, damit meine tägliche Proteinaufnahme erfasst wird.
+- [ ] Als Benutzer möchte ich meinen aktuellen Proteinfortschritt sehen können, damit ich weiss, wie viel Protein mir bis zu meinem Tagesziel noch fehlt.
+- [ ] Arbeitspaket 4: Als Benutzer möchte ich meine eingetragenen Lebensmittel in einer Liste sehen können, damit ich nachvollziehen kann, welche Lebensmittel ich heute bereits gegessen habe.
