@@ -1,19 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProteinTracker.MainPage">
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25"
-            
+            Padding="30,30"
+            Spacing="25">
+
+            <!-- Überschrift -->
             <Label
-    Text="Protein Tracker"
-    FontSize="32"
-    FontAttributes="Bold"
-    HorizontalOptions="Start" />
-            
+                Text="Protein Tracker"
+                FontSize="32"
+                FontAttributes="Bold"
+                HorizontalOptions="Start" />
+
+            <!-- Tagesziel -->
+            <Label
+                Text="Mein tägliches Proteinziel"
+                FontSize="20" />
+
+            <!-- Eingabe des Tagesziels -->
+            <Entry
+                x:Name="ProteinGoalEntry"
+                Placeholder="z.B. 150"
+                Keyboard="Numeric" />
+
+            <!-- Speichern -->
+            <Button
+                Text="Tagesziel speichern"
+                Clicked="OnSaveGoalClicked" />
+
+            <!-- Anzeige des gespeicherten Ziels -->
+            <Label
+                x:Name="GoalLabel"
+                Text="Noch kein Tagesziel festgelegt"
+                FontSize="18" />
+
         </VerticalStackLayout>
     </ScrollView>
 
