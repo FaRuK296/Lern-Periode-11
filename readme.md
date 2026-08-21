@@ -27,6 +27,6 @@ Heute habe ich mein Projekt für die Lernperiode gestartet. Ich habe mich für e
 
 ## 21.8
 - [x] Als Benutzer möchte ich ein persönliches Protein-Tagesziel festlegen können, damit ich weiss, wie viel Protein ich täglich erreichen möchte.
-- [ ] Als Benutzer möchte ich Lebensmittel mit ihrem Proteingehalt eintragen können, damit meine tägliche Proteinaufnahme erfasst wird.
+- [x] Als Benutzer möchte ich Lebensmittel mit ihrem Proteingehalt eintragen können, damit meine tägliche Proteinaufnahme erfasst wird.
 - [ ] Als Benutzer möchte ich meinen aktuellen Proteinfortschritt sehen können, damit ich weiss, wie viel Protein mir bis zu meinem Tagesziel noch fehlt.
-- [ ] Arbeitspaket 4: Als Benutzer möchte ich meine eingetragenen Lebensmittel in einer Liste sehen können, damit ich nachvollziehen kann, welche Lebensmittel ich heute bereits gegessen habe.
+- [ ] Als Benutzer möchte ich meine eingetragenen Lebensmittel in einer Liste sehen können, damit ich nachvollziehen kann, welche Lebensmittel ich heute bereits gegessen habe.
