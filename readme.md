@@ -28,5 +28,12 @@ Heute habe ich mein Projekt für die Lernperiode gestartet. Ich habe mich für e
 ## 21.8
 - [x] Als Benutzer möchte ich ein persönliches Protein-Tagesziel festlegen können, damit ich weiss, wie viel Protein ich täglich erreichen möchte.
 - [x] Als Benutzer möchte ich Lebensmittel mit ihrem Proteingehalt eintragen können, damit meine tägliche Proteinaufnahme erfasst wird.
-- [ ] Als Benutzer möchte ich meinen aktuellen Proteinfortschritt sehen können, damit ich weiss, wie viel Protein mir bis zu meinem Tagesziel noch fehlt.
-- [ ] Als Benutzer möchte ich meine eingetragenen Lebensmittel in einer Liste sehen können, damit ich nachvollziehen kann, welche Lebensmittel ich heute bereits gegessen habe.
+- [x] Als Benutzer möchte ich meinen aktuellen Proteinfortschritt sehen können, damit ich weiss, wie viel Protein mir bis zu meinem Tagesziel noch fehlt.
+- [x] Als Benutzer möchte ich meine eingetragenen Lebensmittel in einer Liste sehen können, damit ich nachvollziehen kann, welche Lebensmittel ich heute bereits gegessen habe.
+
+Heute habe ich die drei geplanten Arbeitspakete meines Proteintrackers fertiggestellt. Ich habe zuerst das persönliche Protein-Tagesziel umgesetzt. Danach habe ich die Eingabe von Lebensmitteln mit ihrem Proteingehalt programmiert. Anschliessend habe ich eine Anzeige für den aktuellen Proteinfortschritt erstellt, welche die eingetragenen Werte zusammenrechnet. Zum Schluss habe ich eine Liste eingebaut, in der alle eingetragenen Lebensmittel untereinander angezeigt werden. Dadurch ist die grundlegende Funktion meiner App jetzt fertig.
+
+## 28.8
+- [ ] Als Benutzer möchte ich eingetragene Lebensmittel löschen können, damit ich falsche Einträge korrigieren kann
+- [ ] Als Benutzer möchte ich mein Tagesziel und meine Einträge speichern können, damit sie nach dem Schliessen der App nicht verloren gehen.
+- [ ] Als Benutzer möchte ich eine übersichtlichere Fortschrittsanzeige sehen können, damit ich schneller erkenne, wie viel Protein mir noch bis zum Tagesziel fehlt.
