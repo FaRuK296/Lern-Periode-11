@@ -9,36 +9,67 @@
             Padding="30,30"
             Spacing="25">
 
-            <!-- Überschrift -->
             <Label
                 Text="Protein Tracker"
                 FontSize="32"
                 FontAttributes="Bold"
                 HorizontalOptions="Start" />
 
-            <!-- Tagesziel -->
             <Label
                 Text="Mein tägliches Proteinziel"
                 FontSize="20" />
 
-            <!-- Eingabe des Tagesziels -->
             <Entry
                 x:Name="ProteinGoalEntry"
                 Placeholder="z.B. 150"
                 Keyboard="Numeric" />
 
-            <!-- Speichern -->
             <Button
                 Text="Tagesziel speichern"
                 Clicked="OnSaveGoalClicked" />
 
-            <!-- Anzeige des gespeicherten Ziels -->
             <Label
                 x:Name="GoalLabel"
                 Text="Noch kein Tagesziel festgelegt"
                 FontSize="18" />
 
+            
+            <Label
+               x:Name="TotalProteinLabel"
+               Text="Aktuell: 0 g Protein"
+               FontSize="18"
+               FontAttributes="Bold" />
+            
+            <Label
+                Text="Lebensmittel eintragen"
+                FontSize="20"
+                FontAttributes="Bold" />
+
+            <Entry
+                x:Name="FoodNameEntry"
+                Placeholder="z.B. Skyr" />
+
+            <Entry
+                x:Name="ProteinAmountEntry"
+                Placeholder="Protein in g"
+                Keyboard="Numeric" />
+
+            <Button
+                Text="Lebensmittel hinzufügen"
+                Clicked="OnAddFoodClicked" />
+
+            <Label
+    Text="Heute gegessen"
+    FontSize="20"
+    FontAttributes="Bold" />
+
+            <VerticalStackLayout
+    x:Name="FoodList"
+    Spacing="10">
+            </VerticalStackLayout>
+
         </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
+    
