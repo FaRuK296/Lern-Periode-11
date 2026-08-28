@@ -7,13 +7,12 @@
     <ScrollView>
         <VerticalStackLayout
             Padding="30,30"
-            Spacing="25">
+            Spacing="20">
 
             <Label
                 Text="Protein Tracker"
                 FontSize="32"
-                FontAttributes="Bold"
-                HorizontalOptions="Start" />
+                FontAttributes="Bold" />
 
             <Label
                 Text="Mein tägliches Proteinziel"
@@ -33,13 +32,22 @@
                 Text="Noch kein Tagesziel festgelegt"
                 FontSize="18" />
 
-            
             <Label
-               x:Name="TotalProteinLabel"
-               Text="Aktuell: 0 g Protein"
-               FontSize="18"
-               FontAttributes="Bold" />
-            
+                x:Name="TotalProteinLabel"
+                Text="Aktuell: 0 g Protein"
+                FontSize="20"
+                FontAttributes="Bold" />
+
+            <ProgressBar
+                x:Name="ProteinProgressBar"
+                Progress="0"
+                HeightRequest="10" />
+
+            <Label
+                x:Name="RemainingProteinLabel"
+                Text="Noch kein Fortschritt vorhanden"
+                FontSize="16" />
+
             <Label
                 Text="Lebensmittel eintragen"
                 FontSize="20"
@@ -59,13 +67,14 @@
                 Clicked="OnAddFoodClicked" />
 
             <Label
-    Text="Heute gegessen"
-    FontSize="20"
-    FontAttributes="Bold" />
+                Text="Heute gegessen"
+                FontSize="20"
+                FontAttributes="Bold" />
 
             <VerticalStackLayout
-    x:Name="FoodList"
-    Spacing="10">
+                x:Name="FoodList"
+                Spacing="10">
+
             </VerticalStackLayout>
 
         </VerticalStackLayout>
