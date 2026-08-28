@@ -37,3 +37,11 @@ Heute habe ich die drei geplanten Arbeitspakete meines Proteintrackers fertigges
 - [x] Als Benutzer möchte ich eingetragene Lebensmittel löschen können, damit ich falsche Einträge korrigieren kann
 - [x] Als Benutzer möchte ich mein Tagesziel und meine Einträge speichern können, damit sie nach dem Schliessen der App nicht verloren gehen.
 - [x] Als Benutzer möchte ich eine übersichtlichere Fortschrittsanzeige sehen können, damit ich schneller erkenne, wie viel Protein mir noch bis zum Tagesziel fehlt.
+
+Heute habe ich meinen Proteintracker weiterentwickelt und drei neue Funktionen eingebaut. Zuerst habe ich die Möglichkeit erstellt, eingetragene Lebensmittel wieder zu löschen. Danach habe ich eine lokale Speicherung hinzugefügt, damit das Tagesziel und die eingetragenen Lebensmittel nach dem Schliessen der App erhalten bleiben. Zum Schluss habe ich die Fortschrittsanzeige verbessert. Die App zeigt jetzt den aktuellen Proteinstand, das Tagesziel, die noch fehlende Proteinmenge und zusätzlich eine Fortschrittsleiste an. Damit ist die App deutlich vollständiger und benutzerfreundlicher geworden.
+
+## 4.9
+- [ ] Als Benutzer möchte ich nach dem Hinzufügen eines Lebensmittels leere Eingabefelder haben, damit ich direkt das nächste Lebensmittel eintragen kann.
+- [ ] Als Benutzer möchte ich sehen können, wie viel Prozent meines Tagesziels ich bereits erreicht habe, damit mein Fortschritt noch verständlicher ist.
+- [ ] Als Benutzer möchte ich eine Meldung erhalten, wenn ich mein Protein-Tagesziel erreicht habe, damit ich sofort weiss, dass mein Ziel erfüllt ist.
+- [ ] Als Benutzer möchte ich alle Einträge des Tages auf einmal zurücksetzen können, damit ich am nächsten Tag wieder bei 0 g Protein beginnen kann.
