@@ -39,6 +39,7 @@
 
             totalProtein = totalProtein + protein;
 
+
             FoodNameEntry.Text = "";
             ProteinAmountEntry.Text = "";
 
@@ -109,12 +110,27 @@
                     Text = "Löschen"
                 };
 
+                Button editButton = new Button
+                {
+                    Text = "Bearbeiten"
+                };
+
+
                 deleteButton.Clicked += (sender, e) =>
                 {
                     DeleteFood(food);
                 };
 
+                editButton.Clicked += (sender, e) =>
+                {
+
+                    FoodNameEntry.Text = food.Name;
+                    ProteinAmountEntry.Text = food.Protein.ToString();
+                    DeleteFood(food);
+                };
+
                 foodRow.Children.Add(foodLabel);
+                foodRow.Children.Add(editButton);
                 foodRow.Children.Add(deleteButton);
 
                 FoodList.Children.Add(foodRow);
