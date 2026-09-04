@@ -74,11 +74,13 @@
             <VerticalStackLayout
                 x:Name="FoodList"
                 Spacing="10">
-
             </VerticalStackLayout>
+
+            <Button
+                Text="Tag zurücksetzen"
+                Clicked="OnResetDayClicked" />
 
         </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
-    
