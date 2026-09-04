@@ -42,6 +42,13 @@ Heute habe ich meinen Proteintracker weiterentwickelt und drei neue Funktionen e
 
 ## 4.9
 - [x] Als Benutzer möchte ich einen eingetragenen Lebensmitteleintrag bearbeiten können, damit ich falsche Angaben korrigieren kann, ohne den Eintrag löschen und neu erstellen zu müssen.
-- [ ] Als Benutzer möchte ich sehen können, wie viel Prozent meines Tagesziels ich bereits erreicht habe, damit mein Fortschritt noch verständlicher ist.
-- [ ] Als Benutzer möchte ich eine Meldung erhalten, wenn ich mein Protein-Tagesziel erreicht habe, damit ich sofort weiss, dass mein Ziel erfüllt ist.
-- [ ] Als Benutzer möchte ich alle Einträge des Tages auf einmal zurücksetzen können, damit ich am nächsten Tag wieder bei 0 g Protein beginnen kann.
+- [x] Als Benutzer möchte ich sehen können, wie viel Prozent meines Tagesziels ich bereits erreicht habe, damit mein Fortschritt noch verständlicher ist.
+- [x] Als Benutzer möchte ich eine Meldung erhalten, wenn ich mein Protein-Tagesziel erreicht habe, damit ich sofort weiss, dass mein Ziel erfüllt ist.
+- [x] Als Benutzer möchte ich alle Einträge des Tages auf einmal zurücksetzen können, damit ich am nächsten Tag wieder bei 0 g Protein beginnen kann.
+
+Heute habe ich meinen Proteintracker weiter verbessert und mehrere neue Funktionen eingebaut. Ich habe eine Bearbeiten-Funktion ergänzt, damit bestehende Lebensmittel-Einträge korrigiert werden können. Zusätzlich zeigt die App jetzt den Fortschritt in Prozent an und gibt eine Meldung aus, sobald das tägliche Proteinziel erreicht wurde. Zum Schluss habe ich eine Funktion eingebaut, mit der alle Einträge des Tages auf einmal zurückgesetzt werden können. Dadurch ist die App jetzt deutlich vollständiger und einfacher zu bedienen.
+
+## 11.9
+- [ ] Als Benutzer möchte ich sehen können, wie viele Lebensmittel ich heute eingetragen habe, damit ich einen Überblick über meine Einträge habe.
+- [ ] Als Benutzer möchte ich mein festgelegtes Tagesziel nachträglich ändern können, damit ich mein Proteinziel jederzeit anpassen kann.
+- [ ] Als Benutzer möchte ich beim Zurücksetzen des Tages zusätzlich meine Eingabefelder und die Fortschrittsanzeige zurückgesetzt haben, damit ich mit einer sauberen Ansicht einen neuen Tag beginnen kann.
