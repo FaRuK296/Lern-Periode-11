@@ -50,5 +50,5 @@ Heute habe ich meinen Proteintracker weiter verbessert und mehrere neue Funktion
 
 ## 11.9
 - [x] Als Benutzer möchte ich sehen können, wie viele Lebensmittel ich heute eingetragen habe, damit ich einen Überblick über meine Einträge habe.
-- [ ] Als Benutzer möchte ich mein festgelegtes Tagesziel nachträglich ändern können, damit ich mein Proteinziel jederzeit anpassen kann.
-- [ ] Als Benutzer möchte ich beim Zurücksetzen des Tages zusätzlich meine Eingabefelder und die Fortschrittsanzeige zurückgesetzt haben, damit ich mit einer sauberen Ansicht einen neuen Tag beginnen kann.
+- [x] Als Benutzer möchte ich mein festgelegtes Tagesziel nachträglich ändern können, damit ich mein Proteinziel jederzeit anpassen kann.
+- [x] Als Benutzer möchte ich sehen können, wie viele Gramm Protein ich über meinem Tagesziel liege, damit ich auch nach dem Erreichen meines Ziels meinen Fortschritt nachvollziehen kann.
