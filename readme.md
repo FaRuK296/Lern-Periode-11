@@ -60,4 +60,7 @@ Der Proteintracker ist eine mit .NET MAUI entwickelte App, mit der Benutzer ihre
 
 <img width="800" height="453" alt="ezgif-37408daca12ea755" src="https://github.com/user-attachments/assets/a6e0d36e-0053-40ff-aa11-44ddf7fa3f6b" />
 
+## Reflexion
+Ich habe in der Lernperiode 11 Net.Maui kennengelernt. Am anfang habe ich relativ viel Zeit mit der Installation und Einrichtung verloren, weshalb ich meine Planung angepassen musste. Danach konnte ich Schritt für Schritt meinen Proteintracker entwickeln und immer mehr Funktionen hinzufügen. Besonders hilfreich war, dass ich auftretende Fehler selbst nachvollziehen und beheben musste. Insgesamt bin ich mit dem Ergebnis zufrieden, da die App am Ende funktioniert und ich gleichzeitig meine Kenntnisse in C#, XAML und der Appentwicklung verbessern konnte. 
+
 
