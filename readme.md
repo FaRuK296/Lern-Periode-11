@@ -58,6 +58,6 @@ Heute habe ich meinen Proteintracker fertiggestellt. Ich habe die letzten Funkti
 ## Fertiges Projekt
 Der Proteintracker ist eine mit .NET MAUI entwickelte App, mit der Benutzer ihre tägliche Proteinaufnahme verfolgen können. Man kann ein persönliches Tagesziel festlegen, Lebensmittel mit ihrem Proteingehalt eintragen und den aktuellen Fortschritt anzeigen lassen. Die App berechnet automatisch die gesamte Proteinmenge und zeigt den Fortschritt in Prozent sowie mit einer Fortschrittsleiste an. Eingetragene Lebensmittel können bearbeitet oder gelöscht werden. Zusätzlich werden die Daten lokal gespeichert, sodass sie nach dem Schliessen der App erhalten bleiben. Der Tag kann zurückgesetzt werden, um mit einer neuen Liste zu beginnen.
 
-<img width="800" height="453" alt="ezgif-30cf0f032905fa47" src="https://github.com/user-attachments/assets/cf8d73e7-5b6b-4cda-b6e3-579c5be3c343" />
+<img width="800" height="453" alt="ezgif-37408daca12ea755" src="https://github.com/user-attachments/assets/a6e0d36e-0053-40ff-aa11-44ddf7fa3f6b" />
 
 
