@@ -30,6 +30,11 @@
             }
         }
 
+        private void OnEditGoalClicked(object? sender, EventArgs e)
+        {
+            ProteinGoalEntry.Text = proteinGoal.ToString();
+        }
+
         private void OnAddFoodClicked(object? sender, EventArgs e)
         {
             if (double.TryParse(ProteinAmountEntry.Text, out double protein))
@@ -106,6 +111,17 @@
             TotalProteinLabel.Text =
                 "Aktuell: " + totalProtein + " / " + proteinGoal + " g Protein";
 
+            
+            if (foods.Count == 1)
+            {
+                FoodCountLabel.Text = "1 Lebensmittel eingetragen";
+            }
+            else
+            {
+                FoodCountLabel.Text =
+                    foods.Count + " Lebensmittel eingetragen";
+            }
+
             if (proteinGoal > 0)
             {
                 double progress = totalProtein / proteinGoal;
@@ -133,11 +149,32 @@
 
                     goalAlertShown = false;
                 }
-                else
+
+                else if (remaining == 0)
                 {
                     RemainingProteinLabel.Text =
+                        "100% erreicht - Tagesziel genau erreicht!";
+
+                    if (!goalAlertShown)
+                    {
+                        goalAlertShown = true;
+
+                        await DisplayAlert(
+                            "Tagesziel erreicht",
+                            "Du hast dein Protein-Tagesziel erreicht!",
+                            "OK");
+                    }
+                }
+
+                else
+                {
+                    double overGoal = totalProtein - proteinGoal;
+
+                    RemainingProteinLabel.Text =
                         Math.Round(percent)
-                        + "% erreicht - Tagesziel erreicht!";
+                        + "% erreicht - "
+                        + overGoal
+                        + " g über dem Tagesziel";
 
                     if (!goalAlertShown)
                     {
@@ -157,18 +194,6 @@
                 RemainingProteinLabel.Text =
                     "Noch kein Tagesziel festgelegt";
             }
-
-
-
-            if (foods.Count == 1)
-            {
-                FoodCountLabel.Text = "1 Lebensmittel eingetragen";
-            }
-            else
-            {
-                FoodCountLabel.Text = foods.Count + " Lebensmittel eingetragen";
-            }
-
 
             FoodList.Children.Clear();
 

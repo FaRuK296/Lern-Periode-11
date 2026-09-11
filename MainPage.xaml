@@ -27,6 +27,11 @@
                 Text="Tagesziel speichern"
                 Clicked="OnSaveGoalClicked" />
 
+            <Button
+                Text="Tagesziel ändern" 
+                Clicked="OnEditGoalClicked"
+                />
+
             <Label
                 x:Name="GoalLabel"
                 Text="Noch kein Tagesziel festgelegt"
