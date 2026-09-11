@@ -52,3 +52,12 @@ Heute habe ich meinen Proteintracker weiter verbessert und mehrere neue Funktion
 - [x] Als Benutzer möchte ich sehen können, wie viele Lebensmittel ich heute eingetragen habe, damit ich einen Überblick über meine Einträge habe.
 - [x] Als Benutzer möchte ich mein festgelegtes Tagesziel nachträglich ändern können, damit ich mein Proteinziel jederzeit anpassen kann.
 - [x] Als Benutzer möchte ich sehen können, wie viele Gramm Protein ich über meinem Tagesziel liege, damit ich auch nach dem Erreichen meines Ziels meinen Fortschritt nachvollziehen kann.
+
+Heute habe ich meinen Proteintracker fertiggestellt. Ich habe die letzten Funktionen umgesetzt und die App nochmals getestet. Neu kann ich sehen, wie viele Lebensmittel eingetragen wurden, das Tagesziel nachträglich ändern und erkennen, wenn ich mein Protein-Tagesziel überschritten habe. Danach habe ich den Code nochmals kontrolliert und kleinere Fehler behoben. Zum Schluss habe ich den aktuellen Stand auf GitHub hochgeladen und mit dem Projektabschluss begonnen.
+
+## Fertiges Projekt
+Der Proteintracker ist eine mit .NET MAUI entwickelte App, mit der Benutzer ihre tägliche Proteinaufnahme verfolgen können. Man kann ein persönliches Tagesziel festlegen, Lebensmittel mit ihrem Proteingehalt eintragen und den aktuellen Fortschritt anzeigen lassen. Die App berechnet automatisch die gesamte Proteinmenge und zeigt den Fortschritt in Prozent sowie mit einer Fortschrittsleiste an. Eingetragene Lebensmittel können bearbeitet oder gelöscht werden. Zusätzlich werden die Daten lokal gespeichert, sodass sie nach dem Schliessen der App erhalten bleiben. Der Tag kann zurückgesetzt werden, um mit einer neuen Liste zu beginnen.
+
+<img width="800" height="453" alt="ezgif-30cf0f032905fa47" src="https://github.com/user-attachments/assets/cf8d73e7-5b6b-4cda-b6e3-579c5be3c343" />
+
+
