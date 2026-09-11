@@ -71,6 +71,11 @@
                 FontSize="20"
                 FontAttributes="Bold" />
 
+            <Label
+    x:Name="FoodCountLabel"
+    Text="0 Lebensmittel eingetragen"
+    FontSize="16" />
+            
             <VerticalStackLayout
                 x:Name="FoodList"
                 Spacing="10">

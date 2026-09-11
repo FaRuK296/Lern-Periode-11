@@ -158,6 +158,18 @@
                     "Noch kein Tagesziel festgelegt";
             }
 
+
+
+            if (foods.Count == 1)
+            {
+                FoodCountLabel.Text = "1 Lebensmittel eingetragen";
+            }
+            else
+            {
+                FoodCountLabel.Text = foods.Count + " Lebensmittel eingetragen";
+            }
+
+
             FoodList.Children.Clear();
 
             foreach (FoodItem food in foods)
